@@ -168,7 +168,6 @@ def main():
             # Result is calculated if no errors were found
             else:
 
-                # Should probably add actual genotypes to this cross sometime later
                 result = monohybrid_cross(user_parent1, user_parent2)
 
                 homo_dom = result[0]
