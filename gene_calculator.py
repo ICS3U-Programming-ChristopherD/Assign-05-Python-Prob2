@@ -152,7 +152,6 @@ def main():
             user_parent2 = parent_error_checker(
                 input("Enter the second parent: "), cross_type
             )
-            
 
             # Tells the user to restart if too many characters were entered
             if user_parent1 == -1 or user_parent2 == -1:
