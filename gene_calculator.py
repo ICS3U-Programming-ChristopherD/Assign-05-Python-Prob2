@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # Created by: Chris Di Bert
-# Date: Nov.30, 2022
+# Date: Dec.9, 2022
 # This program calculates all possible offspring combinations
 # and their probabilities given the genotypes of the parents
 
