@@ -91,7 +91,7 @@ def parent_error_checker(parent, cross_type):
     if cross_type[0] == "y":
 
         # Error thrown if the parent genotype exceeds 2 characters
-        if len(parent) > 2:
+        if len(parent) != 2:
             return -1
 
         # Errors thrown if the positioning of the alleles is incorrect
@@ -152,6 +152,7 @@ def main():
             user_parent2 = parent_error_checker(
                 input("Enter the second parent: "), cross_type
             )
+            
 
             # Tells the user to restart if too many characters were entered
             if user_parent1 == -1 or user_parent2 == -1:
